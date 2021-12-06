@@ -1,0 +1,6 @@
+{
+  "arrowParens": "avoid",
+  "semi": false,
+  "react/jsx-pascal-case": [true, { "allowAllCaps": true }],
+  "extends": ["eslint:recommended", "plugin:react/recommended"]
+}
