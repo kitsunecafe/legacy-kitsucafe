@@ -179,7 +179,7 @@ public interface InputProvider
 
 ```
 
-A new component is required to implement the interface, `PlayerInputProvider`. This will contain the implementation details that previously lived in `InputProvider`.
+A new component is required to implement the interface, `PlayerInputProvider`. It will contain the implementation details that previously lived in `InputProvider`.
 
 ```cs
 public class PlayerInputProvider : MonoBehaviour, InputProvider
@@ -199,4 +199,4 @@ public class PlayerInputProvider : MonoBehaviour, InputProvider
 }
 ```
 
-Attach `PlayerInputProvider` to the player object and ensure the character moves again. A future component could be `EnemyInputProvider` which determines movement based on a `NavMeshAgent` component. 
+Attach `PlayerInputProvider` to the player object and ensure the character moves again. A future component could be `EnemyInputProvider` which determines movement based on a `NavMeshAgent`. 
