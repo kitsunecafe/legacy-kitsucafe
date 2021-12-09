@@ -61,7 +61,7 @@ export const query = graphql`
 				title
 			}
 		}
-		allProjectsJson(sort: {order: ASC, fields: date}) {
+		allProjectsJson(sort: { order: DESC, fields: date }) {
 			edges {
 				node {
 					title

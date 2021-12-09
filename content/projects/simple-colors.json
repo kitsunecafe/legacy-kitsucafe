@@ -1,7 +1,7 @@
 {
 	"title": "Simple Node Colors",
-	"date": "05-24-2019",
+	"date": "2019-05-23",
 	"image": "https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png",
 	"href": "https://github.com/mochancrimthann/node-simple-colors",
-	"description": "A dead simple utility for coloring console output in Nodejs."
+	"description": "A simple utility for coloring console output in Nodejs."
 }
