@@ -10,7 +10,7 @@ const PostList = ({ posts }) => (
     {posts.map((node) => (
       <li key={node.slug} >
         <Flex>
-          <PostLink{...node} />
+          <PostLink {...node} />
         </Flex>
       </li>
     ))}

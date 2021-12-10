@@ -7,7 +7,7 @@
     "develop": "gatsby develop -H 0.0.0.0",
     "start": "gatsby develop -H 0.0.0.0",
     "build": "gatsby build",
-    "deploy": "gatsby build && gh-pages -d public",
+    "deploy": "gatsby build && echo 'kitsu.cafe' > public/CNAME && gh-pages -d public",
     "clean": "gatsby clean"
   },
   "license": "0BSD",
