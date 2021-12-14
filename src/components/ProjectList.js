@@ -1,6 +1,6 @@
 /** @jsx jsx */
 import { Flex, jsx } from 'theme-ui'
-import Link from './Link'
+import { Link } from 'theme-ui'
 
 const ProjectCard = ({ title, description, image, href }) => (
 	<Link
