@@ -9,11 +9,11 @@ module.exports = {
     displayAuthor: `キツネ`,
     kofiId: 'H2H6270D0',
     social: [
-      {
-        name: `twitter`,
-        icon: `${__dirname}/src/icons/twitter.svg`,
-        url: `https://twitter.com/GrumpyMochan`,
-      },
+      // {
+      //   name: `twitter`,
+      //   icon: `${__dirname}/src/icons/twitter.svg`,
+      //   url: `https://twitter.com/GrumpyMochan`,
+      // },
       {
         name: `github`,
         icon: `${__dirname}/src/icons/github.svg`,
