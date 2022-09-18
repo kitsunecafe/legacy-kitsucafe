@@ -1,28 +1,28 @@
 module.exports = {
   siteMetadata: {
     title: `Kitsune Cafe`,
-    author: `Mochan`,
+    author: `Kitsune`,
     siteUrl: `https://kitsu.cafe`,
     description: `A blog for game development and personal projects.`,
-    twitterUsername: 'GrumpyMochan',
+    twitterUsername: 'kitsu_cafe',
     displayTitle: `キツネの喫茶店`,
     displayAuthor: `キツネ`,
     kofiId: 'H2H6270D0',
     social: [
-      // {
-      //   name: `twitter`,
-      //   icon: `${__dirname}/src/icons/twitter.svg`,
-      //   url: `https://twitter.com/GrumpyMochan`,
-      // },
+      {
+        name: `twitter`,
+        icon: `${__dirname}/src/icons/twitter.svg`,
+        url: `https://twitter.com/kitsu_cafe`,
+      },
       {
         name: `github`,
         icon: `${__dirname}/src/icons/github.svg`,
-        url: `https://github.com/mochancrimthann`,
+        url: `https://github.com/kitsunecafe`,
       },
       {
         name: `itchio`,
         icon: `${__dirname}/src/icons/itchdotio.svg`,
-        url: `https://mochancrimthann.itch.io/`,
+        url: `https://kitsunecafe.itch.io/`,
       },
       {
         name: `steam`,
