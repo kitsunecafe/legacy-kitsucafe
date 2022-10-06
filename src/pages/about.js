@@ -13,7 +13,7 @@ const About = ({ data }) => (
 			feel free to follow me on my socials if you like what i create.
 			i am sometimes a reclusive person so i may go long periods of time without posting very often.
 		</p>
-		<p>this site highlights my work and opinions as a creator. this is not a resume. i am not looking for work.</p>
+		<p>this site highlights my work and opinions as a creator.</p>
 		<p>if you would like to contact me, you may do so at <Link to="mailto:shibamet@protonmail.com">shibamet@protonmail.com</Link></p>
 	</Layout>
 )
