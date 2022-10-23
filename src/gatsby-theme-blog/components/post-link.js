@@ -1,14 +1,15 @@
 /** @jsx jsx */
 import { Fragment } from 'react'
 import { jsx, Themed } from 'theme-ui'
-import { Link } from 'gatsby'
+// import { Link } from 'gatsby'
+import Link from '../../components/Link'
 import Tooltip from '../../components/Tooltip'
 
 const PostLink = ({ title, slug, date, excerpt }) => (
 	<Fragment>
 		<Tooltip text={excerpt}>
-			<Themed.a
-				as={Link}
+			<Link
+				// as={Link}
 				sx={{
 					textTransform: 'uppercase',
 					textDecoration: 'none',
@@ -17,7 +18,7 @@ const PostLink = ({ title, slug, date, excerpt }) => (
 				to={slug}
 			>
 				{title || slug}
-			</Themed.a>
+			</Link>
 			<small sx={{ textTransform: 'uppercase' }}>{date}</small>
 		</Tooltip>
 	</Fragment>
