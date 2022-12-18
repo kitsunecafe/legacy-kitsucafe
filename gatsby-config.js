@@ -10,6 +10,16 @@ module.exports = {
     kofiId: 'H2H6270D0',
     social: [
       {
+        name: `discord`,
+        icon: `${__dirname}/src/icons/discord.svg`,
+        url: `https://discord.com/invite/jNFSXm5kXd`
+      },
+      {
+        name: `mastodon`,
+        icon: `${__dirname}/src/icons/mastodon.svg`,
+        url: `https://mastodon.gamedev.place/@kitsunecafe`
+      },
+      {
         name: `twitter`,
         icon: `${__dirname}/src/icons/twitter.svg`,
         url: `https://twitter.com/kitsu_cafe`,
