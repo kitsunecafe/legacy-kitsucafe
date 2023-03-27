@@ -4,7 +4,6 @@ module.exports = {
     author: `Kitsune`,
     siteUrl: `https://kitsu.cafe`,
     description: `A blog for game development and personal projects.`,
-    twitterUsername: 'kitsu_cafe',
     displayTitle: `キツネの喫茶店`,
     displayAuthor: `キツネ`,
     kofiId: 'H2H6270D0',
@@ -19,11 +18,11 @@ module.exports = {
         icon: `${__dirname}/src/icons/mastodon.svg`,
         url: `https://mastodon.gamedev.place/@kitsunecafe`
       },
-      {
-        name: `twitter`,
-        icon: `${__dirname}/src/icons/twitter.svg`,
-        url: `https://twitter.com/kitsu_cafe`,
-      },
+      // {
+      //   name: `twitter`,
+      //   icon: `${__dirname}/src/icons/twitter.svg`,
+      //   url: `https://twitter.com/kitsu_cafe`,
+      // },
       {
         name: `github`,
         icon: `${__dirname}/src/icons/github.svg`,
